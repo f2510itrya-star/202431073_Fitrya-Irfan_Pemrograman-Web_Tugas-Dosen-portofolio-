@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontak | Fitrya Irfan</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Fitrya Irfan</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h2>Form Permintaan Proyek</h2>
+    <form>
+      <label>Nama Lengkap</label>
+      <input type="text" name="nama" placeholder="Masukkan nama anda" required>
+
+      <label>Email</label>
+      <input type="email" name="email" placeholder="Masukkan email anda" required>
+
+      <label>Jenis Layanan</label>
+      <select>
+        <option value="web">Pembuatan Website</option>
+        <option value="konsultasi">Konsultasi Teknologi</option>
+        <option value="review">Review Portofolio</option>
+      </select>
+
+      <label>Deskripsi Proyek / Pesan</label>
+      <textarea name="pesan" rows="5" placeholder="Tuliskan detail proyek..." required></textarea>
+
+      <label class="checkbox">
+        <input type="checkbox" required> Saya menyetujui ketentuan layanan
+      </label>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Fitrya Irfan | <a href="https://itpln.ac.id" target="_blank">ITPLN</a></p>
+  </footer>
+
+</body>
+</html>
